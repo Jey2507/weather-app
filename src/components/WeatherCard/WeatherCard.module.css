@@ -1,0 +1,50 @@
+.card {
+    width: max-content;
+    height: max-content;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: rgba(240, 248, 255, 0.4);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    align-self: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 120px;
+    height: 516px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+.descr {
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+.mainBox {
+    max-height: max-content;
+    align-self: start;
+    border-radius: 12px;
+    padding: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+              url(../../images/cloudy.jpg) no-repeat;
+  background-size: cover; /* Зображення має бути подвійної висоти */
+  background-position: left top; /* Позиціонує зображення зліва, зверху */
+  background-repeat: no-repeat; /* Забороняє повторення зображення */
+  background-blend-mode: overlay; /* Накладає градієнт поверх зображення */
+}
+
+

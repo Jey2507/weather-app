@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 112px;
+    background-color: #4A90E2;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+
+.input {
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 8px 0px;
+    padding-left: 16px;
+    height: 16px;
+}
+
+
+.button {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+}
